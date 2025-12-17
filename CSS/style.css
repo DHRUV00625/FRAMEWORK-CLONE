@@ -1,0 +1,255 @@
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #fffcfc;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;              /* keeps it above hero */
+
+  border-bottom: 1px solid #e5e5e5;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+
+.nav-container {
+  max-width: 1400px;
+  margin: auto;
+  padding: 14px 16px; 
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.logo {
+  margin-right: 12px;
+}
+
+
+.logo a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 28px;
+  height: 28px;
+}
+
+.logo span {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #000;
+}
+.nav-main{
+  margin-bottom: 7px;
+}
+
+.nav-main,
+.nav-secondary {
+  display: flex;
+  gap: 20px;
+}
+.nav-main a,
+.nav-secondary a {
+  font-weight: 500;
+}
+
+.nav-main a,
+.nav-secondary a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.95rem;
+}
+
+
+.nav-secondary {
+  margin-left: auto;
+}
+
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 1rem;
+}
+
+.currency {
+  font-size: 0.9rem;
+}
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+
+.nav-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+
+.currency {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.9rem;
+}
+
+.flag {
+  width: 20px;
+  height: auto;
+}
+.logo img {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+.logo {
+  margin-left: -15px;
+  margin-bottom: 10px;
+}
+.nav-icons {
+  position: relative;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+.nav-icons::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 28px;
+  width: 1px;
+  background-color: #e5e5e5;
+}
+/* HERO SECTION */
+/* HERO */
+.hero {
+  width: 100%;
+  padding: 24px 16px;
+  background: #fff;
+}
+
+/* ORANGE BOX */
+/* HERO BOX LAYOUT */
+/* HERO BOX LAYOUT */
+.hero-box {
+  max-width: 1400px;
+  height: 90vh;
+  margin: 0 auto;
+
+  background: #f5be59;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  gap: 120px;
+
+  padding: 48px;
+  box-sizing: border-box;
+
+  overflow: hidden;
+
+  flex-wrap: wrap; /* 🔴 ADD THIS */
+}
+
+
+/* HERO GIF */
+.hero-gif {
+  width: 750px;        /* adjust freely */
+  height: auto;        /* keeps proportions */
+  display: block;
+  flex-shrink: 0;      /* prevents squishing */
+  margin-left: -48px; /* adjust position */
+  margin bottom: 10px; /* adjust position */
+  margin-top: 40px; /* adjust position */
+}
+
+
+/* TEXT CONTAINER */
+.hero-text {
+  max-width: 420px;
+  width: 100%;        /* ensures it respects container */
+  box-sizing: border-box;
+  margin-left: -60px;
+  margin-right: 120px;
+  margin-bottom: 120px;
+}
+p{
+  margin-left: 10px;
+  margin-right: -70px;
+  font-size: 1.02rem;
+  font-weight: 350;
+}
+/* CTA CONTAINER */
+.hero-cta {
+  margin-top: 32px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap; /* prevents overflow on small screens */
+}
+
+/* BASE BUTTON */
+.btn {
+  text-decoration: none;
+  padding: 14px 22px;
+  border-radius: 999px; /* pill shape */
+  font-size: 0.95rem;
+  font-weight: 999;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.2s ease;
+}
+
+/* PRIMARY BUTTON */
+.btn-primary {
+  background: #f77245;
+  color: #000000;
+  font-size: 1.05rem;
+}
+
+.btn-primary:hover {
+  background: #f8845d;
+ }
+
+/* SECONDARY BUTTON */
+.btn-secondary {
+  background: transparent;
+  color: #000;
+  border: 1px solid #000;
+}
+
+
+/* HEADING */
+.hero-text h1 {
+  font-family: 'Pixelify Sans', monospace !important;
+  font-size: 2.8rem;
+  font-weight: 150;          /* pixel fonts MUST be 400 */
+  line-height: 1.1;
+  margin-bottom: 24px;
+  letter-spacing: 1px;
+  margin-right: -150px;
+}
+
+
+
+/* PARAGRAPH */
+.hero-text p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #333;
+  margin-right: -50px;
+}
