@@ -388,6 +388,7 @@ p {
   background: #000000;
   color: #ffffff;
 }
+.
 
 .the-box {
   margin-top: 40px;
@@ -492,7 +493,7 @@ p {
 }
 
 .information li {
-  color: #f77245;
+  color: #00ffd9;
   font-weight: 800;
   padding: 10px 20px;
   justify-content: center;
@@ -504,7 +505,6 @@ p {
 .information li:hover {
   transform: scale(1.1);
   transition: ease-in-out 0.5s;
-  background: linear-gradient(90deg, #0df86f, #06ee7a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, #cd0df8, #ee0606);
+  
 }
