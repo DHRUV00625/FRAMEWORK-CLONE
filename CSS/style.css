@@ -388,7 +388,6 @@ p {
   background: #000000;
   color: #ffffff;
 }
-.
 
 .the-box {
   margin-top: 40px;
@@ -405,7 +404,7 @@ p {
   max-width: 810px;
   margin: 0 auto;
   text-align: center;
-  font-size: 4.1rem;
+  font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.25;
   color: #1a1a1a;
@@ -429,6 +428,7 @@ p {
   border-bottom: 2px solid #000;
   background: transparent;
   outline: none;
+  margin-left: 80px;
 }
 
 .newsletter-form input::placeholder {
@@ -493,7 +493,7 @@ p {
 }
 
 .information li {
-  color: #00ffd9;
+  color: #f77245;
   font-weight: 800;
   padding: 10px 20px;
   justify-content: center;
@@ -505,6 +505,7 @@ p {
 .information li:hover {
   transform: scale(1.1);
   transition: ease-in-out 0.5s;
-  background: linear-gradient(90deg, #cd0df8, #ee0606);
-  
+  background: linear-gradient(90deg, #0df86f, #06ee7a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
